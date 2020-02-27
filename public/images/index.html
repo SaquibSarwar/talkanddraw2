@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Video Chat App</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link href="main.css" rel="stylesheet">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+      <!-- <div class="row">
+              <div class="" style="text-align:right">
+              <input class="" type="checkbox" id="theme">
+                <label class="" for="theme">
+                      Dark Theme
+                  </label>
+              </div>
+      </div> -->
+
+      <div class="row" style="margin-top:10%">
+          <div class="six columns">
+              <div class="" style=" height:400px; ">
+                  <video class="" muted></video>
+                    <div class="" style="width:150px; height:150px;  margin-left: 55%; margin-right:0%; ">
+                        <div id="peerDiv" class="">
+                        </div>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+  </div>
+
+<!-- socket and javascript -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="bundle.js"></script>
+<script src="main.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
